@@ -50,6 +50,19 @@
     text-decoration: none;
 }
 
+.Nav-bar a::after{
+    width: 0%;
+    height: 2px;
+    background: blanchedalmond;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.Nav-bar a:hover:after{
+    width: 100%;
+}
 .Nav-section button{
     width: 150px;
     height: 50px;
